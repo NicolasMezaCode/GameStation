@@ -28,12 +28,12 @@ let coinsToPay=()=>{
         snakeBtn.classList.add('active');
         snakeBtn.classList.remove('nonvisible');
     }
-    if(counterCoin>=30){
+    if(counterCoin>=1000000000){
         pongBox.classList.remove('disabled');
         pongBtn.classList.add('active');
         pongBtn.classList.remove('nonvisible');
     }
-    if(counterCoin>=35){
+    if(counterCoin>=99999999999){
         dinoBox.classList.remove('disabled');
         dinoBtn.classList.add('active');
         dinoBtn.classList.remove('nonvisible');

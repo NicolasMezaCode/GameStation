@@ -1,12 +1,24 @@
-main{
-    background-image: url('https://cdn-cf-east.streamable.com/image/9fl17h.jpg?Expires=1649063760&Signature=mMZLRkHB9pA0BVq0y3k2~1~PIVrTubDGtxSKnAoOMt6AngY370GCphM~CDUwuI87CPQZLsPWWJI8cyg4v8OF2LTnZxb~hTFm2hfSfJM9gPlhIkPgTyIyWr4Wwuwjq2d4EtkNJzSjtJ8DqQvZtB53LwSUonSx66s7rO-r8QHS-CmtquwUuj9bbbLMOPC0h9qpFsjqzvEgcikfqDYrUCb6c793Ld~fVH2MM~dDn7nK6vmM5ASHEfdn63z6ToWXKvOOSO7ZuLO6-yYPBBnWnbicg22pYax8aOiTJfCZwaJQxKl4oC0zSsrdLCU4Q1JDnttha50hOo3K7d~sDmyK-SlSWw__&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ');
+.main-board{
+  margin-top: 3rem;
 }
 
-.container-snake-game{
-    padding-top: 3rem;
-}   
 
-canvas{
-    width: 50rem;
-    height: 50rem;
-}
+
+  #game-board {
+    background-color: rgb(125, 255, 141);
+    width: 80vmin;
+    height: 80vmin;
+    display: grid;
+    grid-template-rows: repeat(21, 1fr);
+    grid-template-columns: repeat(21, 1fr);
+  }
+
+  .snake {
+    background-color: hsl(0, 100%, 50%);
+    border: .25vmin solid black;
+  }
+
+  .food {
+    background-color: hsl(117, 84%, 10%);
+    border: .25vmin solid black;
+  }

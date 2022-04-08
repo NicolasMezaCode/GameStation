@@ -1,0 +1,52 @@
+.main-board{
+    margin-top: 3rem;
+}
+
+.align{
+    display: flex;
+    justify-content: center;
+}
+.start-counter{
+    margin-right: 3rem;
+}
+
+.score{
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+.container {
+    display: flex;
+  }
+  .grid {
+    width: 30rem;
+    height: 60rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+  }
+  
+  .grid div {
+    height: 3rem;
+    width: 3rem;
+  }
+  
+  .tetromino {
+    background-color: blue;
+  }
+  
+  
+  .mini-grid {
+    margin-left: 7.5rem;
+    width: 12rem;
+    height: 12rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+  }
+  
+  .mini-grid div {
+    height: 3rem;
+    width: 3rem;
+  }
+  
